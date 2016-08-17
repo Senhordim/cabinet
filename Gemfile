@@ -17,6 +17,7 @@ gem 'haml', '~> 4.0'
 
 group :development, :test do
   gem 'byebug', platform: :mri
+  gem 'pry', '~> 0.10.4'
 end
 
 group :development do
